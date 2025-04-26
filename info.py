@@ -28,10 +28,10 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://i.ibb.co/LD825pYq/photo-2024-12-15-02-58-25-7480811368581431300.jpg https://i.ibb.co/8n7DMRXv/photo-2024-12-15-02-58-25-7480811424416006168.jpg https://i.ibb.co/60MYW5GY/photo-2024-12-15-02-58-26-7480811454480777232.jpg https://i.ibb.co/bMnbKhzD/photo-2025-03-12-06-53-37-7480812717201162264.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://i.ibb.co/LD825pYq/photo-2024-12-15-02-58-25-7480811368581431300.jpg https://i.ibb.co/8n7DMRXv/photo-2024-12-15-02-58-25-7480811424416006168.jpg https://i.ibb.co/60MYW5GY/photo-2024-12-15-02-58-26-7480811454480777232.jpg https://i.ibb.co/bMnbKhzD/photo-2025-03-12-06-53-37-7480812717201162264.jpg https://i.ibb.co/yctrNH7J/photo-2025-04-26-00-58-28-7497419942690553872.jpg https://i.ibb.co/R47BKrRm/photo-2025-04-26-00-58-44-7497420011410030612.jpg https://i.ibb.co/Q78tRnsV/photo-2025-04-26-00-59-05-7497420105899311128.jpg https://i.ibb.co/XZWHG2RR/photo-2025-04-26-00-59-28-7497420208978526228jpg https://i.ibb.co/XfwpjPwM/photo-2025-04-26-00-59-35-7497420466676564000.jpg https://i.ibb.co/nsXtXVQ1/photo-2024-12-15-02-58-26-7497496418878226444.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/WP4.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/4nXkVhYd/photo-2025-04-26-00-59-41-7497420466676564008.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
 
