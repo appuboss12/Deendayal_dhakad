@@ -85,9 +85,9 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/dreamcinezone')  # Ho
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vplink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b7751d50c1506a1731d5e863a584a294657a55c8')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Link_08/30')  # Tutorial video link for opening shortlink website
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'lksfy.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd200e6d92af0bf242b9d25fce8c9b7023bb7720e')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Link_06/6')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
