@@ -605,7 +605,9 @@ async def start(client, message):
               InlineKeyboardButton("⚡ Hᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⚡", url=HOW_TO_VERIFY)
            ]]
             l = await message.reply_text(
-                text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ इस BOT से MOVIE प्राप्त करने के लिए आपको VERIFY करना आवश्यक है VERIFY करने के बाद आप {DEENDAYAL_VERIFY_EXPIRE}  घंटे  तक UNLIMITED MOVIES प्राप्त कर सकते हो।</blockquote> \n\n<blockquote>🔥 अगर आप VERIFY नहीं करना चाहते तो आप PREMIUM ले सकते हो, PREMIUM लेने के बाद आप UNLIMITED MOVIES प्राप्त कर पाओगे और आपको VERIFY करने कोई जरूरत नहीं है\n\nPLAN DETAILS के लिए CLICK करें /plan</blockquote></b>",
+                text=f"<b>♨️ YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR {DEENDAYAL_VERIFY_EXPIRE} HOURS ✅\n\n<blockquote>⚜️ ಈ BOT ನಿಂದ MOVIE ಪಡೆಯಲು, ನೀವು ಅದನ್ನು ಪರಿಶೀಲಿಸಬೇಕು. ಪರಿಶೀಲನೆಯ ನಂತರ {DEENDAYAL_VERIFY_EXPIRE}  ನೀವು ಗಂಟೆಗಳ ಕಾಲ UNLIMITED MOVIES ಪಡೆಯಬಹುದು.</blockquote> \n\n<blockquote>🔥  ನೀವು ಪರಿಶೀಲಿಸಲು ಬಯಸದಿದ್ದರೆ, ನೀವು PREMIUM ಅನ್ನು ಖರೀದಿಸಬಹುದು. PREMIUM ಅನ್ನು ಖರೀದಿಸಿದ ನಂತರ, ನೀವು UNLIMITED ಚಲನಚಿತ್ರಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ಹೊಂದಿರುತ್ತೀರಿ ಮತ್ತು ನೀವು ಪರಿಶೀಲಿಸುವ ಅಗತ್ಯವಿಲ್ಲ.
+
+For plan details, click /plan</blockquote></b>",
                 protect_content=False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
