@@ -330,7 +330,7 @@ async def start(client, message):
             ]]
             await message.reply_photo(
                 photo="https://graph.org/file/6928de1539e2e80e47fb8.jpg",
-                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 {DEENDAYAL_VERIFY_EXPIRE} HOURS.\n\n<blockquote>ನಿಮ್ಮನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ {DEENDAYAL_VERIFY_EXPIRE}  ಈಗ ನೀವು 1  ಗಂಟೆಯ ಹೊತ್ತಿಗೆ 𝐷𝑖𝑟𝑒𝑐𝑡 ನೀವು 𝑀𝑜𝑣𝑖𝑒  𝐹𝑖𝑙𝑒𝑠  ಪಡೆಯಬಹುದು.</blockquote></b>",
+                caption=f"<b>Hey {message.from_user.mention},\n\n𝑌𝑜𝑢 𝐴𝑟𝑒 𝑆𝑢𝑐𝑐𝑒𝑠𝑠𝑓𝑢𝑙 𝑉𝑒𝑟𝑖𝑓𝑖𝑒𝑑 ! 𝑁𝑜𝑤 𝑌𝑜𝑢 𝐻𝑎𝑣𝑒 𝑈𝑛𝑙𝑖𝑚𝑖𝑡𝑒𝑑 𝐴𝑐𝑐𝑒𝑠𝑠 𝐹𝑜𝑟 {DEENDAYAL_VERIFY_EXPIRE} HOURS.\n\n<blockquote>ನಿಮ್ಮನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ {DEENDAYAL_VERIFY_EXPIRE}  ಈಗ ನೀವು  ಗಂಟೆಯ ಹೊತ್ತಿಗೆ 𝐷𝑖𝑟𝑒𝑐𝑡 ನೀವು 𝑀𝑜𝑣𝑖𝑒  𝐹𝑖𝑙𝑒𝑠  ಪಡೆಯಬಹುದು.</blockquote></b>",
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token) 
